@@ -15,8 +15,6 @@ const corsConfig = {
 app.use(cors(corsConfig));
 
 
-
-
 const client = new MongoClient(mongoURI, {
     serverApi: {
         version: ServerApiVersion.v1,
